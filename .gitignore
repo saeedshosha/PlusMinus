@@ -6,7 +6,6 @@ nofelem=int(input())
 for i in range(nofelem) :
     element=int(input())
     arr.append(element)
-print(arr)
 for a in range(nofelem):
     if arr[a] >= 1 :
         pos=pos+1
